@@ -1,0 +1,27 @@
+modLoader="javafml"
+loaderVersion="[2,)"
+license="MIT"
+
+[[mods]]
+modId="customsealevel"
+version="1.1.0"
+displayName="NoahFlood"
+authors="mpPABLO"
+description="Custom Sea Level Mod"
+
+[[mixins]]
+config="customsealevel.mixins.json"
+
+[[dependencies.customsealevel]]
+modId="neoforge"
+type="required"
+versionRange="[21,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.customsealevel]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1,)"
+ordering="NONE"
+side="BOTH"
